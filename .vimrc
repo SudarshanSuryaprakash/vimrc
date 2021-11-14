@@ -31,6 +31,7 @@ call vundle#begin()
  Plugin 'junegunn/fzf.vim'
  Plugin 'vim-airline/vim-airline'
  Plugin 'vim-airline/vim-airline-themes'
+ Plugin 'hallettj/jslint.vim'
 
 call vundle#end()
 
@@ -95,3 +96,6 @@ set encoding=UTF-8
 
 "airline theme
 let g:airline_theme='simple'
+
+set cursorline
+set cursorcolumn
